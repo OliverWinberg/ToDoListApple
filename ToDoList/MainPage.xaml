@@ -4,38 +4,22 @@
              x:Class="ToDoList.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+            <Grid ColumnSpacing="10" RowDefinitions="Auto" ColumnDefinitions="*, Auto">
+                <Label Text="To-Do List" FontSize="24" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" Grid.Column="0" />
+                <Button Text="Settings" HorizontalOptions="End" VerticalOptions="Center" Grid.Column="1" Clicked="SettingsButton_Clicked"/>
+            </Grid>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+            <ListView x:Name="TasksListView" VerticalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding .}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
+            <Button x:Name="CounterBtn" Text="Klik her hvis du frøkener rundt" Clicked="OnCounterClicked" HorizontalOptions="Center" />
+            <Button x:Name="AddTaskPage" Text="Go to task page" Clicked="AddNewTaskButton_Clicked" HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

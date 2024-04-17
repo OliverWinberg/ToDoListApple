@@ -1,27 +1,42 @@
-﻿namespace ToDoList;
+﻿using System;
+using Microsoft.Maui.Controls;
 
-public partial class MainPage : ContentPage
+namespace ToDoList
 {
-	int count = 0;
+    public partial class MainPage : ContentPage
+    {
+        int count = 0;
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+        public MainPage()
+        {
+            InitializeComponent();
+            TasksListView.ItemsSource = TaskService.Current.Tasks;
+        }
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+        private async void OnCounterClicked(object sender, EventArgs e)
+        {
+            count++;
+            if (count == 10)
+            {
+                await DisplayAlert("Alert", "Du har frøkenet rundt 10 gange idag", "OK");
+                count = 0;
+                CounterBtn.Text = "Klik her hvis du frøkener rundt";
+            }
+            else
+            {
+                CounterBtn.Text = $"Du har frøkenet rundt {count} gange i dag";
+            }
+            SemanticScreenReader.Announce(CounterBtn.Text);
+        }
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
+        private async void AddNewTaskButton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(NewTaskPage));
+        }
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+        private void SettingsButton_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Settings", "Settings button clicked", "OK");
+        }
+    }
 }
-
-//test
-
-
