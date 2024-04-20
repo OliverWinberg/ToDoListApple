@@ -61,16 +61,19 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <None Remove="Resources\AppIcon\" />
 	  <None Remove="Resources\AppIcon\appiconfg.svg" />
+	  <None Remove="Data\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\AppIcon\appiconfg.svg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Resources\AppIcon\" />
+	  <Folder Include="Data\" />
 	</ItemGroup>
 </Project>

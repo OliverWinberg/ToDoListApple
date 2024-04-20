@@ -1,0 +1,17 @@
+2024-04-18 21:15:49.836796+0200 ToDoList[8631:244391] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=8631
+2024-04-18 21:15:49.837139+0200 ToDoList[8631:244391] SecTaskCopyDebugDescription: ToDoList[8631]/0#-1 LF=0
+2024-04-18 21:15:49.856546+0200 ToDoList[8631:244391] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=8631
+2024-04-18 21:15:49.856850+0200 ToDoList[8631:244391] SecTaskCopyDebugDescription: ToDoList[8631]/0#-1 LF=0
+2024-04-18 21:15:49.857157+0200 ToDoList[8631:244391] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=8631
+2024-04-18 21:15:49.857567+0200 ToDoList[8631:244391] SecTaskCopyDebugDescription: ToDoList[8631]/0#-1 LF=0
+2024-04-18 21:15:51.073149+0200 ToDoList[8631:245166] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=8631
+2024-04-18 21:15:51.073432+0200 ToDoList[8631:245166] SecTaskCopyDebugDescription: ToDoList[8631]/0#-1 LF=0
+2024-04-18 21:15:51.652032+0200 ToDoList[8631:244391] [TableView] Warning once only: UITableView was told to layout its visible cells and other contents without being in the view hierarchy (the table view or one of its superviews has not been added to a window). This may cause bugs by forcing views inside the table view to load and perform layout without accurate information (e.g. table view bounds, trait collection, layout margins, safe area insets, etc), and will also cause unnecessary performance overhead due to extra layout passes. Make a symbolic breakpoint at UITableViewAlertForLayoutOutsideViewHierarchy to catch this in the debugger and see what caused this to occur, so you can avoid this action altogether if possible, or defer it until the table view has been added to a window. Table view: <_UIMoreListTableView: 0x109c25000; frame = (0 0; 0 0); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x600000c6f360>; backgroundColor = <UIDynamicSystemColor: 0x600001755000; name = tableBackgroundColor>; layer = <CALayer: 0x60000068f4c0>; contentOffset: {0, 0}; contentSize: {0, 0}; adjustedContentInset: {0, 0, 0, 0}; dataSource: <UIMoreListController: 0x10631b440>>
+2024-04-18 21:15:59.246542+0200 ToDoList[8631:244836] Warning: observer object was not disposed manually with Dispose()
+2024-04-18 21:15:59.246882+0200 ToDoList[8631:244836] Warning: observer object was not disposed manually with Dispose()
+2024-04-18 21:16:06.233012+0200 ToDoList[8631:244391] [unspecified] container_query_get_single_result: error = 2→(98) NOT_CODESIGNED
+2024-04-18 21:16:06.233156+0200 ToDoList[8631:244391] [unspecified] container_system_group_path_for_identifier: error = ((container_error_t)98) NOT_CODESIGNED
+2024-04-18 21:16:06.233297+0200 ToDoList[8631:244391] [MC] Error getting system group container for systemgroup.com.apple.configurationprofiles: 98
+2024-04-18 21:16:06.233627+0200 ToDoList[8631:244391] [MC] Failed to get profile system group container path. Overriding with expected path: /Users/oliver/Library/Developer/CoreSimulator/Devices/C3E61A1C-51C5-42CB-8909-BDA0BFE10957/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+ToDoList(8631,0x10492e240) malloc: *** error for object 0x7ff8020c0e64: pointer being freed was not allocated
+ToDoList(8631,0x10492e240) malloc: *** set a breakpoint in malloc_error_break to debug

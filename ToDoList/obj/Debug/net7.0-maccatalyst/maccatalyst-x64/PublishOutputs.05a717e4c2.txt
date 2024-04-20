@@ -9,6 +9,10 @@
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/Microsoft.Extensions.Options.dll
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/Microsoft.Extensions.Primitives.dll
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/Microsoft.Maui.Graphics.dll
+/Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/SQLite-net.dll
+/Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/SQLitePCLRaw.batteries_v2.dll
+/Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/SQLitePCLRaw.core.dll
+/Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/ToDoList.dll
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/Microsoft.CSharp.dll
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/Microsoft.VisualBasic.Core.dll
@@ -185,5 +189,6 @@
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/Microsoft.Maui.Controls.dll
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/Microsoft.Maui.Essentials.dll
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/ToDoList.pdb
+/Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/libe_sqlite3.dylib
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MonoBundle/System.Private.CoreLib.aotdata.x86_64
 /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../ToDoList.app/Contents/MacOS//ToDoList

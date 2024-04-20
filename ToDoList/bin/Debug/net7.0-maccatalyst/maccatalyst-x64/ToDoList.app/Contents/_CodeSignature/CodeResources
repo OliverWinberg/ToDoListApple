@@ -16,10 +16,6 @@
 		<data>
 		ZnxPlBb61yJgTClkkJUhKOIljfo=
 		</data>
-		<key>Resources/MauiInfo.plist</key>
-		<data>
-		iEtuUGCV6JM3gxS/pO33swhmpp8=
-		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -196,6 +192,34 @@
 			<key>hash2</key>
 			<data>
 			4e0AijWYawBJ5oJY6QCRYSp3tZid1ivJw3LkdO7eDDw=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLite-net.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/0h0FMSssyqe6OCqk97walP3tX35PS56JgVOGN+Fcj4=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.batteries_v2.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kylPuIiR6IKN27UfH1K8VCl9n9pSQbikaTX+p10gtqM=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l57cyQVqwG1fUrEtm3czsSF5FKtQvxI6sxLgJ+esV6U=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.provider.e_sqlite3.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RwA/P9Qppbadb8bP0Wv82XkQMhcB5eeoiQYWQ8gdCGU=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1329,14 +1353,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ThTvCY7Djo6RgulNLF1ZgdNS1EHu+nc7uTpoh3Gf+qs=
+			dqfvHUHhAjtYgfL0bxFJa5DdrEGP3cTub29H4lTcd/k=
 			</data>
 		</dict>
 		<key>MonoBundle/ToDoList.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+V49gJkxTtA8IBEsMR5E1/B+n+MvNdfzArjRkTEP0Vk=
+			IpndYc4QDGcyjBsee4s6LJKDbvu7stX0MR7oSPCXk4Y=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1351,6 +1375,13 @@
 			<key>hash2</key>
 			<data>
 			UYBgm2eduvMCWTliUcl318YqSMD3lImc247xRKSYF5Q=
+			</data>
+		</dict>
+		<key>MonoBundle/libe_sqlite3.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xdT638yOcEJSJOlDvF+a/vPh/yzcgxFhRV3a3mM+aI8=
 			</data>
 		</dict>
 		<key>MonoBundle/mscorlib.dll</key>
@@ -1393,13 +1424,6 @@
 			<key>hash2</key>
 			<data>
 			rKT1HdD+sGgg/Aq0pwDDOo3j8rvaFv8qG6G+OTc8H+c=
-			</data>
-		</dict>
-		<key>Resources/MauiInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>

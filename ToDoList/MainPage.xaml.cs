@@ -6,11 +6,26 @@ namespace ToDoList
     public partial class MainPage : ContentPage
     {
         int count = 0;
+        TodoItemDatabase database;
+
 
         public MainPage()
         {
             InitializeComponent();
-            TasksListView.ItemsSource = TaskService.Current.Tasks;
+            database = new TodoItemDatabase();
+            LoadTasks();
+
+        }
+
+        async void LoadTasks()
+        {
+            TasksListView.ItemsSource = await database.GetItemsAsync();
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            TasksListView.ItemsSource = await database.GetItemsAsync();
         }
 
         private async void OnCounterClicked(object sender, EventArgs e)
@@ -18,7 +33,7 @@ namespace ToDoList
             count++;
             if (count == 10)
             {
-                await DisplayAlert("Alert", "Du har frøkenet rundt 10 gange idag", "OK");
+                await DisplayAlert("Du har frøkenet rundt 10 gange idag", "Det er for meget...", "Jeg skylder kys :-*");
                 count = 0;
                 CounterBtn.Text = "Klik her hvis du frøkener rundt";
             }

@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ToDoList.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+    <ScrollView Padding="0" Margin="0">
+        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Start">
             <Grid ColumnSpacing="10" RowDefinitions="Auto" ColumnDefinitions="*, Auto">
                 <Label Text="To-Do List" FontSize="24" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" Grid.Column="0" />
                 <Button Text="Settings" HorizontalOptions="End" VerticalOptions="Center" Grid.Column="1" Clicked="SettingsButton_Clicked"/>
@@ -13,13 +13,13 @@
             <ListView x:Name="TasksListView" VerticalOptions="FillAndExpand">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding .}" />
+                        <TextCell Text="{Binding Name}" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
 
-            <Button x:Name="CounterBtn" Text="Klik her hvis du frøkener rundt" Clicked="OnCounterClicked" HorizontalOptions="Center" />
             <Button x:Name="AddTaskPage" Text="Go to task page" Clicked="AddNewTaskButton_Clicked" HorizontalOptions="Center" />
+            <Button x:Name="CounterBtn" Text="Klik her hvis du frøkener rundt" Clicked="OnCounterClicked" HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

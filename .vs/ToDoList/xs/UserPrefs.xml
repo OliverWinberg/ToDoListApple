@@ -1,4 +1,35 @@
 ﻿<Properties StartupConfiguration="{958AA1E5-7007-4DF4-B433-5D2AB3F9707C}|Default">
-  <MonoDevelop.Ide.ItemProperties.ToDoList FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoList/ModifyTaskPage.xaml">
+    <Files>
+      <File FileName="ToDoList/MainPage.xaml.cs" Line="18" Column="10" />
+      <File FileName="ToDoList/NewTaskPage.xaml.cs" Line="13" Column="47" />
+      <File FileName="ToDoList/TaskService.cs" Line="11" Column="2" />
+      <File FileName="ToDoList/EmptyClass.cs" Line="10" Column="10" />
+      <File FileName="ToDoList/ToDoItem.cs" Line="6" Column="6" />
+      <File FileName="ToDoList/Constants.cs" Line="1" Column="1" />
+      <File FileName="ToDoList/MainPage.xaml" Line="16" Column="59" />
+      <File FileName="ToDoList/NewPage1.xaml" Line="6" Column="26" />
+      <File FileName="ToDoList/NewTaskPage.xaml" Line="1" Column="1" />
+      <File FileName="ToDoList/ModifyTaskPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoList" expanded="True">
+            <Node name="ToDoList" selected="True">
+              <Node name="ModifyTaskPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MyAppleMacCatalystID" />
 </Properties>

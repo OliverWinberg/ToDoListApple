@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/oliver/Projects/ToDoList/ToDoList/bin/Debug/net7.0-ios/iossimulator-x64/ToDoList.app/libSystem.Net.Security.Native.dylib
